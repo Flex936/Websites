@@ -1,27 +1,27 @@
 function Home() {
     document.getElementById('Home').style.display="block"
-    document.getElementById('Events').style.display="none"
-    document.getElementById('Courses').style.display="none"
+    document.getElementById('Receipt').style.display="none"
+    document.getElementById('TheAmericanWay').style.display="none"
     document.getElementById('Activities').style.display="none"
 }
 
-function Events() {
+function Receipt() {
     document.getElementById('Home').style.display="none"
-    document.getElementById('Events').style.display="block"
-    document.getElementById('Courses').style.display="none"
+    document.getElementById('Receipt').style.display="block"
+    document.getElementById('TheAmericanWay').style.display="none"
     document.getElementById('Activities').style.display="none"
 }
 
-function Courses() {
+function TheAmericanWay() {
     document.getElementById('Home').style.display="none"
-    document.getElementById('Events').style.display="none"
-    document.getElementById('Courses').style.display="block"
+    document.getElementById('Receipt').style.display="none"
+    document.getElementById('TheAmericanWay').style.display="block"
     document.getElementById('Activities').style.display="none"
 }
 
 function Activities() {
     document.getElementById('Home').style.display="none"
-    document.getElementById('Events').style.display="none"
-    document.getElementById('Courses').style.display="none"
+    document.getElementById('Receipt').style.display="none"
+    document.getElementById('TheAmericanWay').style.display="none"
     document.getElementById('Activities').style.display="block"
 }
