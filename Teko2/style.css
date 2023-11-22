@@ -47,8 +47,18 @@ img {
 
 div.columns-2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+div.col-2 {
     width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.col-2 p {
+    padding: 20px;
 }
 
 div.nav {
